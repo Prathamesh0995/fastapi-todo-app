@@ -14,7 +14,7 @@ def read_root():
 @app.get("/weather")
 def get_weather():
     city = "London"  # You can change this to any city or make it dynamic
-    url = f"{BASE_URL}?key={API_KEY}&q={city}&aqi=no"
+    url = f"{http://api.weatherapi.com/v1/current.json}?key={f128d656ad404b27a17121251250605}&q={city}&aqi=no"
 
     # Fetch the weather data from WeatherAPI
     response = requests.get(url)
