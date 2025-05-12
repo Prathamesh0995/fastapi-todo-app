@@ -9,7 +9,7 @@ BASE_URL = "http://api.weatherapi.com/v1/current.json"
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the FastAPI Todo App!"}
+    return {"message": "Welcome to Dublin Ireland!"}
 
 @app.get("/weather")
 def get_weather():
