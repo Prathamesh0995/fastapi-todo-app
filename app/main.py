@@ -9,7 +9,8 @@ BASE_URL = "http://api.weatherapi.com/v1/current.json"
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to Dublin Ireland!"}
+    return {"message": "Welcome to Mumbai India!"}
+    return {"message": "Welcome to dublin Ireland!"}
 
 @app.get("/weather")
 def get_weather():
